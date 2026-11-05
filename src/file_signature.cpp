@@ -6,10 +6,10 @@ STOKER_PLUGIN_MANIFEST(R"json({
   "id": "app.stokerhq.file-signature",
   "name": "File signature policy",
   "type": "hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "abi": 1,
   "description": "Redirects CryptQueryObject file queries and optionally accepts WinVerifyTrust checks for integrations that replace a signed library. Does not alter files on disk.",
-  "hosts": ["steamworks", "ubisoft", "galaxy"],
+  "hosts": ["steamworks", "ubisoft", "galaxy", "eos"],
   "config": {
     "type": "object", "additionalProperties": false,
     "properties": {
